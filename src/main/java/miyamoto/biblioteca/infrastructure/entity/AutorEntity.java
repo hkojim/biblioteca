@@ -29,7 +29,7 @@ public class AutorEntity {
 
     // Nome obrigatório
     @Column(nullable = false)
-    private String nome;
+    public String nome;
 
     // Sexo do autor (opcional)
     private String sexo;
